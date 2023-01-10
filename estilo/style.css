@@ -1,0 +1,18 @@
+html,body{
+    margin:0px;
+    padding:0px;
+ }
+
+.barra_de_topo{
+    background-color: coral;
+    padding: 15px;
+    text-align: center;
+    
+ }
+
+.cabecalho-imagem{
+     background-image: url("../imagens/hero_bolo.jpg");
+     height: 550px;
+     background-position:top center;
+     background-size: cover;
+ }
