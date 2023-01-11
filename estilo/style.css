@@ -1,9 +1,15 @@
 html,body{
     margin:0px;
     padding:0px;
+    font-family: lato,Arial, Helvetica, sans-serif;
  }
 
-.barra_de_topo{
+ body{
+    font-family: lato,Arial, Helvetica, sans-serif;
+    font-size: 18px;
+ }
+
+.barra-topo{
     background-color: coral;
     padding: 15px;
     text-align: center;
@@ -15,4 +21,106 @@ html,body{
      height: 550px;
      background-position:top center;
      background-size: cover;
+ }
+
+ #conteudo{
+    max-width: 990px;
+    margin: auto;
+    padding: 40px;
+ }
+ h1,h2,h3,h4,h5,h6{
+    color: #ff6b28;
+ }
+
+ h1{
+    font-size: 46px;
+    margin-bottom: 40px;
+ }
+
+ h2{
+    font-size: 25px;
+    margin-bottom: 25px;
+ }
+
+ .cartao-ingredientes{
+    
+    padding: 60px;
+    margin-top: 50px;
+    cursor: url("../imagens/cursor_ingredientes.png"), default;
+    
+ }
+
+ .img-ingredientes{
+
+ }
+
+ .cartao-preparo{
+    
+    padding: 60px;
+    margin-top: 50px;
+    cursor: url("../imagens/cursor_preparo.png"), default;
+ }
+
+
+ .cartao:hover{
+    box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.25);
+ }
+
+ .botao-compra{
+    border: 2px solid;
+    background-color: #ff6b28;
+    padding: 16px;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+ .botao-compra:hover{
+    border: 2px solid #eb5e1c;
+    transform: translate(-20px, -20px);
+    transition: transform .1s, border 0.2s;
+ }
+
+ li{
+    margin-bottom: 14px;
+ }
+
+ .list-ingredientes{
+    margin-bottom: 50px;
+ }
+
+.cartao-instrucao{
+    max-width: 990px;
+    margin: auto;
+    padding: 60px;
+    cursor: url("../imagens/cursor_intrucoes.png"), default;
+}
+
+.cartao-instrucao>h2{
+    font-size: 30px;
+}
+
+.cartao-instrucao>p,li{
+    line-height: 28px;
+}
+
+ strong{
+    color: #ff6b28;
+ }
+
+ .rodape{
+    background-color: #ff6b28;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+ }
+
+ .rodape-text{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ 
+ .rodape-text >a{
+    color: aliceblue;
  }
